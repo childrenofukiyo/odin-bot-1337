@@ -45,9 +45,7 @@ client.on('webhookUpdate', function (channel) {
       const webhooks = await channel.fetchWebhooks();
       for (let [, webhook] of webhooks) {
         // skip if created or updated by allowed owner
-        if (
-          allowedIds[webhook?.owner?.id ?? ''] === webhook?.owner?.id
-        ) {
+        if (allowedIds[webhook?.owner?.id ?? '']) {
           continue;
         }
         // delete webhook if not allowed
