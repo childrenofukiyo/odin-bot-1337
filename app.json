@@ -1,0 +1,6 @@
+{
+  "name": "odin",
+  "description": "A simple bot that deletes webhooks and notifies using twilio SMS",
+  "keywords": ["node", "express", "heroku", "discord", "bot"],
+  "image": "heroku/nodejs"
+}
