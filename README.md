@@ -24,7 +24,7 @@ DISCORD_AUTH_TOKEN = YOUR_DISCORD_AUTH_TOKEN
 Add allowed discord ids and notification recipients in config.js
 
 ```js
-// list of allowed user ids for webhook creation/update, can be a bot id
+// list of allowed user ids for webhook creation/update, can be a bot id or user id
 export const allowedIds: { [key: string]: boolean } = {
   '123456789123456789': true,
 };
